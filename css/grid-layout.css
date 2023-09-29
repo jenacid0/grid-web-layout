@@ -5,12 +5,13 @@
     padding: 20px;
 }
 
-.grid-item {
+.grid-item1 {
     background-color: skyblue;
     border: 1px solid rgb(255, 255, 255);
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    grid-column: 1/5;
 }
 
 h1 {
