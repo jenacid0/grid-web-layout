@@ -1,3 +1,4 @@
+/* GRIDS */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -7,17 +8,11 @@
 
 .grid-item {
     background-color: skyblue;
-    border: 1px solid rgb(255, 255, 255);
+    border: 10px solid rgb(255, 255, 255);
     padding: 20px;
     font-size: 30px;
     text-align: center;
 
-}
-
-h1 {
-    color: steelblue;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .grid-container>div {
@@ -26,6 +21,18 @@ h1 {
     padding: 20px;
     font-size: 20px;
     text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.grid-container>div>.item1 {
+    box-shadow: 10px 10px;
+}
+
+/* HTML */
+h1 {
+    color: steelblue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p {
@@ -34,16 +41,20 @@ p {
     font-size: 20px;
 }
 
+
+/* GRID ITEMS LAYOUT */
 .item1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+
 }
 
 .item2 {
     grid-column-start: 2;
     grid-column-end: 2;
+
 }
 
 .item3 {
