@@ -36,3 +36,9 @@ h1 {
     grid-row-start: 2;
     grid-row-end: 5;
 }
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    size: 20px;
+}
