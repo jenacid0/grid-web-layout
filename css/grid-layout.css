@@ -2,13 +2,13 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(212, 227, 245);
     padding: 20px;
 }
 
 .grid-item {
     background-color: skyblue;
-    border: 20px solid rgb(255, 255, 255);
+    border: 20px solid rgb(212, 227, 245);
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -17,7 +17,7 @@
 
 .grid-container>div {
     background-color: skyblue;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(212, 227, 245);
     padding: 20px;
     font-size: 20px;
     text-align: left;
