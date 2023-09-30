@@ -1,6 +1,6 @@
 
 html {
-    background-color: coral;
+    background-color: white;
 }
 
 body {
@@ -8,9 +8,10 @@ body {
 }
 
 h1 {
+    padding: 20px;
     color: steelblue;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.8em;
     margin: 3px;
     line-height: 1.4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -18,7 +19,10 @@ h1 {
 
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
-    font-size: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    margin: 3px;
+    padding: 20px;
+
 }
 
