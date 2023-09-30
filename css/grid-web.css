@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
 }
 
 h1 {
@@ -15,16 +15,16 @@ h1 {
     font-size: 1.8em;
     margin: 3px;
     line-height: 1.4em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
 }
 
 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin: 3px;
     padding: 20px;
-    color: slategray;
+    color: rgb(60, 84, 109);
 
 }
 

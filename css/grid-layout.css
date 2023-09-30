@@ -7,26 +7,23 @@
 }
 
 .grid-item {
-    background-color: skyblue;
+    background-color: rgb(236, 183, 201);
     border: 20px solid rgb(212, 227, 245);
-    padding: 20px;
     font-size: 30px;
     text-align: center;
-
 }
 
 .grid-container>div {
-    background-color: skyblue;
+    background-color: rgb(236, 183, 201);
     border: 5px solid rgb(212, 227, 245);
     padding: 20px;
     font-size: 20px;
     text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    color: rgb(55, 67, 107);
 }
 
-.grid-container>div>.item1 {
-    box-shadow: 10px 10px;
-}
 /* BODY ADJUSTMENTS */
 body {
     width: 90%;
@@ -50,15 +47,18 @@ body {
 .item2 {
     grid-column-start: 2;
     grid-column-end: span 2;
+    box-shadow: 5px 10px 18px #888888;
 
 }
 
 .item3 {
     grid-column-start: 2;
     grid-column-end: span 2;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .item4 {
     grid-column-start: 1;
     grid-column-end: span 3;
+    box-shadow: 5px 10px 18px #888888;
 }
