@@ -33,6 +33,7 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url()
 }
 
 /* GRID ITEMS LAYOUT */
@@ -42,7 +43,6 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     box-shadow: 5px 10px 18px #888888;
-    background-image: url(pink-sky-clouds.jpg)
 }
 
 .item2 {
