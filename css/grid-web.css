@@ -20,7 +20,7 @@ header>h1 {
 }
 
 body {
-    background-image: url(../pattern-wallpaper.png);
+    background-image: url(../images/pattern-wallpaper.png);
     width: 90%;
     max-width: 1024px;
     min-width: 640px;
