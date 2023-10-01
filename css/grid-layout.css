@@ -17,10 +17,10 @@
     background-color: rgb(236, 183, 201);
     border: 5px solid rgb(212, 227, 245);
     padding: 20px;
-    font-size: 20px;
+    font-size: 1em;
     text-align: left;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 10px;
+    margin: 20px;
     color: rgb(55, 67, 107);
 }
 
@@ -33,7 +33,7 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url()
+    
 }
 
 /* GRID ITEMS LAYOUT */
